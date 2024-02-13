@@ -1,7 +1,7 @@
 package br.com.fabex.api.controller;
 
-import br.com.fabex.api.model.Account;
 import br.com.fabex.api.dto.TransferRequest;
+import br.com.fabex.api.model.Account;
 import br.com.fabex.api.service.AccountConsultService;
 import br.com.fabex.api.service.AccountTransferService;
 import lombok.AllArgsConstructor;
