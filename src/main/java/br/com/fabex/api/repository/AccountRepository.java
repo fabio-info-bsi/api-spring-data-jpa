@@ -14,9 +14,6 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
     @Query("UPDATE Account a SET a.amount = :amount WHERE a.id = :id")
     void updateAmountById(Long id, BigDecimal amount);
 
-//    @Nonnull
-//    List<Account> findAll();
-
     List<Account> findAllByName(String name);
 
 }
