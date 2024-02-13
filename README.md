@@ -1,9 +1,9 @@
-# api-spring-data-jdbc
-Um exemplo de API REST com Spring Boot e Spring Data JDBC
+# api-spring-data-jpa
+Um exemplo de API REST com Spring Boot e Spring Data Jpa
 
 ## Usou/Criou:
-- Spring Data com JDBC
-- Classes `CrudRepository`e `Repository`, @Id, @Modifying and @Query
+- Spring Data com JPA
+- Classes `CrudRepository`e `Repository`, @Id, @GeneratedValue, @Modifying and @Query
 - Lombok (@Slf4j, @AllArgsConstructor, @Getter, @Setter, @Data)
 - @Service, @Component, @Controller, @RestController, @RestControllerAdvice, @RequestMapping
 - ResponseEntity
