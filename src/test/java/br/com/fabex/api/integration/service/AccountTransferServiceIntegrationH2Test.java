@@ -5,7 +5,6 @@ import br.com.fabex.api.repository.AccountRepository;
 import br.com.fabex.api.service.AccountTransferService;
 import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
@@ -18,7 +17,6 @@ import java.util.Optional;
 @Order(5)
 @TestClassOrder(ClassOrderer.OrderAnnotation.class)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-@AutoConfigureMockMvc
 public class AccountTransferServiceIntegrationH2Test {
 
     @Autowired
